@@ -8,12 +8,15 @@ class Bkash {
   }
 
   async createPayment(amount, callbackURL) {
-    // Example API call
-    return {
-      trxID: "TX12345",
-      amount,
-      callbackURL
-    };
+    return { trxID: "TX12345", amount, callbackURL };
+  }
+
+  async executePayment(paymentID) {
+    return { paymentID, status: "Success", trxID: "TX12345" };
+  }
+
+  async refundPayment(paymentID, amount) {
+    return { paymentID, refundedAmount: amount, status: "Refunded" };
   }
 }
 
