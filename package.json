@@ -1,0 +1,25 @@
+{
+  "name": "bkash-node-sdk",
+  "version": "1.0.0",
+  "description": "\"Node.js SDK for bKash Payment Gateway\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmsn-web/bkash-node-sdk.git"
+  },
+  "keywords": [
+    "bkash",
+    "payment",
+    "gateway",
+    "sdk"
+  ],
+  "author": "Sanjay Natta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wmsn-web/bkash-node-sdk/issues"
+  },
+  "homepage": "https://github.com/wmsn-web/bkash-node-sdk#readme"
+}
